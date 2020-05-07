@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  font-family: "SF Pro Text";
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#home,
+#start,
+#middle,
+#last {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 400px;
+  flex-flow: row wrap;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+
+.pageTitle {
+  font-size: 32px;
+  margin: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+#home {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+#start {
+  background-image: linear-gradient(to top, #ff5370 0%, #ffb199 100%);
+}
+
+#middle {
+  background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+}
+
+#last {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+#nav {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 8px 0px;
+}
+
+.selected {
+  text-decoration: none;
+}
